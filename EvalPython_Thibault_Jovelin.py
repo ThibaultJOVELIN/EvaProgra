@@ -5,4 +5,13 @@ import random
 
 ListeDeMots = ['osekour','programmation','secourisme','naufrage','difficile','compliqué','aidezmoi','silvousplait','python','cestdur']
 random.shuffle(ListeDeMots)
-print(ListeDeMots[1]) #La liste tire un mot au hasard parmis ceux proposés
+Mot = [ListeDeMot[1]]
+LettreRecherchee = input("Entrer une lettre")
+for i in range (0,len(Mot)):
+    if Mot[i] == LettreRecherchee:
+        print("Cette lettre existe en position :")
+        print(i + 1)
+
+
+print(ListeDeMots[1])
+print (Mot)
