@@ -7,4 +7,10 @@ print(Style.DIM + 'and in dim text')
 print(Style.RESET_ALL)
 print('back to normal now')
 print(Fore.RED + 'Normalement, je suis rouge')
+
+#Version 1
+Mot = ['OSEKOUR']
+for i in range (0, len(Mot)):
+    print(Mot[i])   #Toutes les lettres s'affichent
+ 
 input()
