@@ -16,7 +16,8 @@ for i in range (0,len(ListeDeMots[1])):         #Je prends le premier mot de la 
 
 #Version 1
 
-MotPropose = [input("Proposer un mot : ")]
-for i in range (0,len(ListeDeMots[1])):
-    if ((ListeDeMots[1])[i]) == MotPropose[i]:
+MotPropose = input("Proposer un mot : ")
+MotUtilisaeur = [MotPropose]
+for i in range (0,6):
+    if ((ListeDeMots[1])[i]) == MotUtilisateur[i]:
         print (Fore.RED + (ListeDeMots[1])[i]) 
