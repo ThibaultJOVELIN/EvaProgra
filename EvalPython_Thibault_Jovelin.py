@@ -6,7 +6,7 @@ from colorama import Fore, Back, Style
 
 #Version 0
 
-ListeDeMots = ListeDeMots = ['oskour','batons','rideau','ballon','apport','lardon','beurre','prison','python','besoin'] #Mots de 6 lettres.
+ListeDeMots = ListeDeMots = ['oskour','batons','rideau','ballon','castor','lardon','beurre','prison','python','besoin'] #Mots de 6 lettres.
 random.shuffle(ListeDeMots)
 LettreRecherchee = input("Entrer une lettre (en minuscule) : ")
 for i in range (0,len(ListeDeMots[1])):         #Je prends le premier mot de la liste qui a été mélangée.
