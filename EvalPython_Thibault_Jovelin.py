@@ -21,4 +21,8 @@ for i in range (0,6):
     if ((ListeDeMots[1])[i]) == MotPropose[i]:
         print (Fore.RED + (ListeDeMots[1])[i])  #Les lettres à la bonne place apparaisent en rouge, les autres n'apparaissent pas.
         
+    elif ((ListeDeMots[1])[i]) != MotPropose[i]:
+        sauvegarde = ((ListeDeMots[1])[i])      #On a besoin de finir la boucle pour vérifier si la lettre est présente ou non, on ne peut pas mettre la lettre en jaune tout de suite (je crois)
+        
+
 input()
