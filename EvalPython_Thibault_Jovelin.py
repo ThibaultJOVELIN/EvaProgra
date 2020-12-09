@@ -24,7 +24,7 @@ for i in range (0,6):
     elif ((ListeDeMots[1])[i]) != MotPropose[i]:
         print (Fore.YELLOW + (ListeDeMots[1])[i]) #Maintenant, les lettres qui ne correspondent pas sont en jaune.
     
-    elif MotPropose[i] != ((ListeDeMots[1])[i]) or ((ListeDeMots[1])[i + 1]) or ((ListeDeMots[1])[i + 2]) or ((ListeDeMots[1])[i + 3]) or ((ListeDeMots[1])[i + 4]) or ((ListeDeMots[1])[i + 5]):
+    elif MotPropose[i] == ((ListeDeMots[1])[i + 1]) or ((ListeDeMots[1])[i + 2]) or ((ListeDeMots[1])[i + 3]) or ((ListeDeMots[1])[i + 4]) or ((ListeDeMots[1])[i + 5]):
         print (Fore.BLUE + (ListeDeMots[1])[i]) #Les lettres qui ne correspondent pas apparaissent en bleu
     
     
