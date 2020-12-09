@@ -10,7 +10,10 @@ print(Fore.RED + 'Normalement, je suis rouge')
 
 #Version 1
 Mot = ['OSEKOUR']
+LettreRecherchee = input("Entrer une lettre à chercher (en majuscule)")
 for i in range (0, len(Mot)):
-    print(Mot[i])   #Toutes les lettres s'affichent
+    if Mot[i] == LettreRecherchee:
+        print(Mot[i])
+    
  
 input()
