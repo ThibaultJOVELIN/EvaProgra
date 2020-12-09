@@ -9,7 +9,7 @@ from colorama import Fore, Back, Style
 ListeDeMots = ['osekour','programmation','secourisme','naufrage','difficile','compliqué','aidezmoi','silvousplait','python','cestdur']
 random.shuffle(ListeDeMots)
 LettreRecherchee = input("Entrer une lettre (en minuscule) : ")
-for i in range (0,len(ListeDeMots[1])):
+for i in range (0,len(ListeDeMots[1])):         #Je prends le premier mot de la liste qui a été mélangée
     if ((ListeDeMots[1])[i]) == LettreRecherchee:
         print("Cette lettre existe en position :")
         print(i + 1)
