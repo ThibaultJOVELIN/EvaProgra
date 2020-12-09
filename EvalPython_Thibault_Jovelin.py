@@ -3,7 +3,7 @@ import random
 
 #Version 0
 
-ListeDeMots = ['osekour','programmation','secourisme','naufrage','difficile','compliqué','aidezmoi','silvousplait','python','cestdur']
+ListeDeMots = ['osekour','programmation','secourisme','naufrage','difficile','compliqué','aidezmoi','silvousplait','python','cestdur'] #Mots qui font plus de 6 lettres
 random.shuffle(ListeDeMots)
 (ListeDeMots[1]) = PremierMot 
 Mot = [PremierMots]
