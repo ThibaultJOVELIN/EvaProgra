@@ -5,7 +5,8 @@ import random
 
 ListeDeMots = ['osekour','programmation','secourisme','naufrage','difficile','compliqué','aidezmoi','silvousplait','python','cestdur']
 random.shuffle(ListeDeMots)
-(ListeDeMot[1]) = Mot
+(ListeDeMots[1]) = PremierMot 
+Mot = [PremierMots]
 LettreRecherchee = input("Entrer une lettre : ")
 for i in range (0,len(Mot)):
     if Mot[i] == LettreRecherchee:
